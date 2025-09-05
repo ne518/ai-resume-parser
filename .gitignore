@@ -1,0 +1,16 @@
+# Virtual environments
+.venv/
+resume_analyzer_env/
+
+# Build / distribution
+.dist/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# Other unnecessary files
+*.log

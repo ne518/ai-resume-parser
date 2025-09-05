@@ -1,0 +1,12 @@
+# requirements.txt
+streamlit
+torch
+transformers
+sentence-transformers
+PyPDF2
+python-docx
+scikit-learn
+pandas
+numpy
+plotly
+pillow

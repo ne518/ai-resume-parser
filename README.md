@@ -1,30 +1,43 @@
-# AI Resume Parser
+The AI-Powered Resume Analyzer is an advanced NLP-based system that matches resumes against job descriptions using sophisticated text processing techniques. This tool helps job seekers optimize their resumes for Applicant Tracking Systems (ATS) by identifying missing keywords and providing actionable improvement suggestions.
 
-AI Resume Parser is a Python-based **Streamlit web application** designed to analyze, parse, and extract relevant information from resumes automatically. It simplifies resume screening by extracting key details like name, contact info, skills, experience, and education.
+✨ Features
+📄 Multi-format Support: Process PDF and DOCX resume files
 
-## Features
+🔍 Advanced Text Analysis: TF-IDF vectorization with cosine similarity scoring
 
-- Upload resumes in PDF, DOCX, or TXT formats
-- Extract key information:
-  - Name
-  - Email
-  - Phone
-  - Skills
-  - Education
-  - Work Experience
-- View extracted data directly in the browser
-- Option to download results as CSV (if implemented)
-- Lightweight and easy to use
+📊 Visual Analytics: Interactive similarity gauge and keyword analysis
 
-## Tech Stack
+🎯 Skill Identification: Categorizes technical, soft, and business skills
 
-- **Backend & Frontend:** Python + Streamlit  
-- **Libraries:** `spacy`, `pdfminer.six`, `python-docx`, `pandas`, `nltk`  
+💡 Actionable Insights: Provides specific recommendations for resume improvement
 
-## Installation
+⚡ Offline Functionality: Works without internet connection or external API dependencies
 
-1. Clone the repository:
+🛠️ Technical Architecture
+Modular Pipeline
+Text Extraction: PDF and DOCX parsing using PyPDF2 and python-docx
 
-```bash
-git clone https://github.com/ne518/ai-resume-parser.git
-cd ai-resume-parser
+Text Preprocessing: Advanced cleaning and normalization
+
+TF-IDF Vectorization: Feature extraction with n-grams (1-3 words)
+
+Cosine Similarity: Matching algorithm for resume-job description comparison
+
+Keyword Analysis: Smart keyword extraction and presence checking
+
+Skill Categorization: Classification into technical, soft, and business skills
+
+Algorithms & Techniques
+TF-IDF (Term Frequency-Inverse Document Frequency): For keyword importance weighting
+
+Cosine Similarity: For semantic matching between documents
+
+N-gram Processing: Captures phrases and multi-word expressions
+
+Text Normalization: Advanced cleaning and preprocessing pipeline
+
+📦 Installation
+Prerequisites
+Python 3.8 or higher
+
+pip (Python package manager)
